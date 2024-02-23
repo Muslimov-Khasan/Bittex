@@ -1,10 +1,10 @@
 .addcategoriya-btn {
-  width: auto;
-  height: 40px;
+  width: 189px;
   border-radius: 8px;
   cursor: pointer;
   font-size: 14px;
-  transform: translateY(-27px) translateX(790px);
+  padding: 10px 4px;
+  transform: translateY(-15px) translateX(870px);
   background-color: #fff;
   border: 1px solid #d0d5dd;
 }
