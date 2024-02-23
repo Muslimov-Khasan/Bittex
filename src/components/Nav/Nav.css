@@ -1,0 +1,58 @@
+.logo-admin {
+  margin-bottom: 11px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.buttons {
+  border-radius: 8px;
+  padding: 8px, 12px, 8px, 12px;
+  align-items: center;
+}
+
+.btn {
+  display: flex;
+  width: auto;
+  height: auto;
+  padding: 21px;
+  border-radius: 8px;
+  text-decoration: none;
+  text-align: center;
+  color: #000;
+  font-weight: 600;
+  font-size: 17px;
+  margin-left: 10px;
+}
+.btn img {
+  margin-right: 15px; /* Add space between image and text */
+  /* margin-top: -10px; */
+  transform: translateY(-3px);
+
+}
+.active {
+  width: 250px;
+  height: auto;
+  padding: 21px;
+  border-radius: 6px;
+  text-align: center;
+  background-color: #F9FAFB;
+}
+@media only screen and (max-width: 1137px) {
+  .logo {
+    transform: translateX(10px);
+  }
+
+  .buttons {
+    transform: translateX(50px);
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .logo {
+    transform: translateX(10px);
+  }
+
+  .buttons {
+    transform: translateX(50px);
+  }
+}

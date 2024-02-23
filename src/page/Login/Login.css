@@ -1,0 +1,103 @@
+/* Login.css */
+
+.wrapper-login {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 100px;
+  border-radius: 8px;
+}
+
+
+
+.form-login {
+  max-width: 360px;
+  padding: 20px;
+  border-radius: 8px;
+  transform: translateY(60px);
+}
+.user-msg {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.label-phone {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.login-info {
+  color: #6b6b6b;
+  font-family: Nunito Sans;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
+.login-btn,
+.logout-btn {
+  background-color: #25b679;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.login-btn:hover,
+.logout-btn:hover {
+  background-color: #45a049;
+}
+
+.label-phone {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.phone-input,
+.password-input {
+  width: 100%;
+  margin-bottom: 14px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.phone-input:focus {
+  border-color: #84CAFF; /* Change border color when focused */
+  box-shadow: 0 0 5px #2E90FA; /* Add a subtle box shadow when focused */
+}
+
+
+.password-input:focus {
+  border-color: #84CAFF; /* Change border color when focused */
+  box-shadow: 0 0 5px #2E90FA; /* Add a subtle box shadow when focused */
+}
+
+.login-btn {
+  background-color: #2E90FA;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.login-btn:hover,
+.logout-btn:hover {
+  background-color: #84CAFF;
+}  
+
+.image {
+  width: 720px;
+  height: 900px;
+  transform: translateY(-200px) rotate(90deg);
+}

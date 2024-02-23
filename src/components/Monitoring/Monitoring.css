@@ -1,0 +1,59 @@
+.drmamma-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.chart-container {
+  width: 1100px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.drmamma-title {
+  font-family: Nunito Sans;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: -0.02em;
+}
+
+.card {
+  width: 1300px;
+  margin: 0 auto;
+  transform: translateY(100px);
+}
+
+.day-select {
+  width: 160px;
+  height: 48px;
+  border-radius: 8px;
+  outline: none;
+  border: 1px solid #D0D5DD;
+  position: fixed;
+  top: 10px; /* Adjust the top position as needed */
+  right: 20px; /* Adjust the right position as needed */
+  z-index: 1000; /* Make sure it's on top of other elements */
+}
+
+.date-input {
+  width: auto;
+  height: auto;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: #ffff;
+  border: 1px solid #D0D5DD;
+  position: fixed;
+  top: 10px; /* Adjust the top position as needed */
+  right: 200px; /* Adjust the right position as needed */
+  z-index: 1000; /* Make sure it's on top of other elements */
+}
+
+.date-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.admin-wrapper {
+  display: flex;
+}
