@@ -216,7 +216,7 @@ input:checked + .slider + .toggle-message {
 .add-catgory-table {
   width: 100%;
   border-collapse: collapse;
-  transform: translateX(-104px) translateY(80px);
+  transform: translateX(-180px) translateY(80px);
   cursor: pointer;
 }
 
