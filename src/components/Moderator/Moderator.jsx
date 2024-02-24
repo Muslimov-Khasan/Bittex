@@ -87,7 +87,6 @@ const Moderator = () => {
       }),
     });
     // If the response status is OK, proceed with parsing JSON
-    console.log(response.status);
     const data = await response.json();
     console.log(data);
 
@@ -97,7 +96,6 @@ const Moderator = () => {
 
   const openModal = (product) => {
     setProductId(product);
-    console.log(product.id);
     setModalIsOpen(true);
   };
 
@@ -187,9 +185,7 @@ const Moderator = () => {
             <>
               <div className="nimaaa">
                 <p className="tesy">{productDetails.name} Nomi</p>
-                <p className="tesy">
-                  {productDetails.category.category.name} Kategory nomi
-                </p>
+                <p className="tesy">{productDetails.category?.category?.name} Kategory nomi</p>
               </div>
               <div className="modal-img-container">
                 {productDetails?.imageList.map((imageUrl, index) => (

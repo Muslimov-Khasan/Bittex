@@ -128,9 +128,7 @@ const ModeratorCheked = () => {
             <>
               <div className="nimaaa">
                 <p className="tesy">{productDetails.name} Nomi</p>
-                <p className="tesy">
-                  {productDetails.category.category.name} Kategory nomi
-                </p>
+                <p className="tesy">{productDetails.category?.category?.name} Kategory nomi</p>
               </div>
               <div className="modal-img-container">
                 {productDetails?.imageList.map((imageUrl, index) => (
