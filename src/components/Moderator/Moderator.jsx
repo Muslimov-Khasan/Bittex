@@ -86,6 +86,7 @@ const Moderator = () => {
         productId: productId.id,
       }),
     });
+    console.log(response.status);
     // If the response status is OK, proceed with parsing JSON
     const data = await response.json();
     console.log(data);
@@ -184,7 +185,9 @@ const Moderator = () => {
             <>
               <div className="nimaaa">
                 <p className="tesy">{productDetails.name} Nomi</p>
-                <p className="tesy">{productDetails.category?.category?.name} Kategory nomi</p>
+                <p className="tesy">
+                  {productDetails.category?.category?.name} Kategory nomi
+                </p>
               </div>
               <div className="modal-img-container">
                 {productDetails?.imageList.map((imageUrl, index) => (
@@ -200,6 +203,9 @@ const Moderator = () => {
               </div>
               <div className="nimaaa">
                 <p className="tesy">{productDetails.price} So'm</p>
+                <p className="tesy">
+                  {productDetails.user.phone} Telefon raqam
+                </p>
               </div>
               <div className="description">
                 <p>{productDetails.description}</p>
@@ -207,9 +213,9 @@ const Moderator = () => {
               <div className="infos">
                 <p className="tesy">{productDetails.region}</p>
                 <p className="tesy">{productDetails.district}</p>
-                <p className="tesy">
-                  {productDetails.category.createdDate} Vaqti
-                </p>
+                <p className="tesy">{productDetails.status} Status</p>
+                <p className="tesy">{new Date(productDetails.category.createdDate).toLocaleString()} Vaqti</p>
+
               </div>
               <div className="moderator-buttons">
                 <button className="complaint-btn" onClick={openComplaintModal}>

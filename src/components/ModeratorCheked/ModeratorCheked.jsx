@@ -143,6 +143,7 @@ const ModeratorCheked = () => {
               </div>
               <div className="nimaaa">
                 <p className="tesy">{productDetails.price} So'm</p>
+                <p className="tesy">{productDetails.user.phone} Telefon raqam</p>
               </div>
               <div className="description">
                 <p>{productDetails.description}</p>
@@ -150,9 +151,10 @@ const ModeratorCheked = () => {
               <div className="infos">
                 <p className="tesy">{productDetails.region}</p>
                 <p className="tesy">{productDetails.district}</p>
-                <p className="tesy">
-                  {productDetails.category.createdDate} Vaqti
-                </p>
+                <p className="tesy">{productDetails.user.phone}</p>
+                <p className="tesy">{productDetails.status} Status</p>
+                <p className="tesy">{new Date(productDetails.category.createdDate).toLocaleString()} Vaqti</p>
+
               </div>
             </>
           )}
