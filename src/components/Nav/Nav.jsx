@@ -1,14 +1,13 @@
 import React, { useEffect, useState } from "react";
-import { NavLink, Link, useNavigate } from "react-router-dom";
-import Logo from "../../Assets/img/Logo.svg";
-import home_icon from "../../Assets/img/home_icon.svg";
+import { NavLink, useNavigate } from "react-router-dom";
 import admin from "../../Assets/img/admin.svg";
-import Kategoriya from "../../Assets/img/Kategoriya.svg";
-import News from "../../Assets/img/News.svg";
 import Banner from "../../Assets/img/brand.svg";
 import FAQ from "../../Assets/img/FAQ.svg";
-import Users from "../../Assets/img/users.svg";
+import home_icon from "../../Assets/img/home_icon.svg";
+import Kategoriya from "../../Assets/img/Kategoriya.svg";
 import Links from "../../Assets/img/link.svg";
+import News from "../../Assets/img/News.svg";
+import Users from "../../Assets/img/users.svg";
 import "./Nav.css";
 
 const Nav = () => {
@@ -36,15 +35,6 @@ const Nav = () => {
     <>
       <div className="contianer">
         <div className="nav-wrapper">
-          <Link to="/Monitoring">
-            <img
-              className="logo-admin"
-              src={Logo}
-              alt="logo"
-              width={164}
-              height={42}
-            />
-          </Link>
           <div className="buttons">
             <NavLink
               to="/Monitoring"
