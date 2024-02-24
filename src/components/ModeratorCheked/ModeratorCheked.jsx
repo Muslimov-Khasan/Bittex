@@ -108,7 +108,6 @@ const ModeratorCheked = () => {
               <p className="productcheked-description">{product.description}</p>
               <div className="productcheked-wrapper">
                 <p className="productcheked-price">{product.price} So'm</p>
-                <p className="productcheked-weight">{product.weight} tonna</p>
               </div>
             </li>
           ))}
@@ -144,16 +143,13 @@ const ModeratorCheked = () => {
               </div>
               <div className="nimaaa">
                 <p className="tesy">{productDetails.price} So'm</p>
-                <p className="tesy">{productDetails.weight} tonna</p>
               </div>
               <div className="description">
                 <p>{productDetails.description}</p>
               </div>
               <div className="infos">
                 <p className="tesy">{productDetails.region}</p>
-                <p className="tesy">{productDetails.address}</p>
                 <p className="tesy">{productDetails.district}</p>
-                <p className="tesy">{productDetails.status} Status</p>
                 <p className="tesy">
                   {productDetails.category.createdDate} Vaqti
                 </p>
