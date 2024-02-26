@@ -49,9 +49,9 @@ const Moderator = () => {
         },
       }
     );
-
     const data = await response.json();
     setProductDetails(data);
+    console.log(data);
   };
 
   const handleConfirmation = async () => {
@@ -186,7 +186,7 @@ const Moderator = () => {
               <div className="nimaaa">
                 <p className="tesy">{productDetails.name} Nomi</p>
                 <p className="tesy">
-                  {productDetails.category?.category?.name} Kategory nomi
+                  {productDetails.category?.nameL} Kategory nomi
                 </p>
               </div>
               <div className="modal-img-container">
