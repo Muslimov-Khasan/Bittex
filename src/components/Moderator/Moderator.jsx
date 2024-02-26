@@ -93,6 +93,7 @@ const Moderator = () => {
 
     // Close the modal after creating the report
     setModalIsOpen(false);
+    setMessage("")
   };
 
   const openModal = (product) => {
@@ -118,6 +119,7 @@ const Moderator = () => {
 
   const closeComplaintModal = () => {
     setComplaintModalIsOpen(false);
+    setMessage("")
   };
 
   const shouldAddClass = true;
