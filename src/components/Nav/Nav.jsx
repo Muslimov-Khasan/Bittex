@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import admin from "../../Assets/img/admin.svg";
-import Banner from "../../Assets/img/brand.svg";
+import Brand from "../../Assets/img/brand.svg";
 import FAQ from "../../Assets/img/FAQ.svg";
 import home_icon from "../../Assets/img/home_icon.svg";
 import Kategoriya from "../../Assets/img/Kategoriya.svg";
@@ -73,7 +73,7 @@ const Nav = () => {
               className={`btn ${activeBtn === "Banner" ? "active" : ""}`}
               onClick={() => handleButtonClick("Banner", "/image-upload")}
             >
-              <img src={Banner} alt="home_icon" width={25} height={25} />
+              <img src={Brand} alt="home_icon" width={25} height={25} />
               Brand
             </NavLink>
             <NavLink

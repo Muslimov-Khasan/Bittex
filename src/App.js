@@ -1,7 +1,6 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Login from "./page/Login/Login";
-import ImageUpload from "./components/Banner/Banner";
 import News from "./components/News/News";
 import Header from "./components/Header/Header";
 import AddCategory from "./components/addcategory/addcategory";
@@ -11,6 +10,7 @@ import Users from "./components/users/users";
 import Moderator from "./components/Moderator/Moderator";
 import Contact from "./components/Contact/Contact";
 import ModeratorCheked from "./components/ModeratorCheked/ModeratorCheked";
+import Brand from "./components/Banner/Brand";
 function App() {
   return (
     <div className="app">
@@ -24,7 +24,7 @@ function App() {
         <Route path="/faq" element={<FAQ />} />
         <Route path="/Moderator" element={<Moderator />} />
         <Route path="/ModeratorCheked" element={<ModeratorCheked />} />
-        <Route path="/Brand" element={<ImageUpload />} />
+        <Route path="/Brand" element={<Brand />} />
         <Route path="/Contact" element={<Contact/>} />
       </Routes>
     </div>

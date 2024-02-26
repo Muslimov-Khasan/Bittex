@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from "react";
 import Modal from "react-modal";
-import { Link } from "react-router-dom";
 import Trush_Icon_red from "../../Assets/img/Trush_Icon_red.svg";
 import Nav from "../Nav/Nav";
-import "./Banner.css";
+import "./Brand.css";
 
-const Banner = () => {
+const Brand = () => {
   const [brandData, setBrandData] = useState([]);
   const [newBrand, setNewBrand] = useState({ name: "" });
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -163,4 +162,4 @@ const Banner = () => {
   );
 };
 
-export default Banner;
+export default Brand;
