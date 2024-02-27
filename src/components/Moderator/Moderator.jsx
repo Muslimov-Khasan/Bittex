@@ -178,8 +178,8 @@ const Moderator = () => {
                 className="productcheked-img"
                 src={product.photoUrl}
                 alt=""
-                width={280}
-                height={180}
+                // width={300}
+                // height={180}
               />
               <p className="productcheked-region">
                 <img src={LocationIcon} alt="" width={19} height={19} />{" "}
