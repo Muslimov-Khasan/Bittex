@@ -42,6 +42,12 @@
   box-shadow: 0px 12px 16px -4px #10182814;
 }
 
+.productcheked-item:hover {
+  z-index: 500;
+  box-shadow: 0px 12px 16px -4px ;
+  
+}
+
 .productcheked-img {
   object-fit: cover;
   border-radius: 5px;
