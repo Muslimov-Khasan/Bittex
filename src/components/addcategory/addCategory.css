@@ -220,16 +220,22 @@ input:checked + .slider + .toggle-message {
   cursor: pointer;
 }
 
-th,
-td {
-  color: rgba(71, 84, 103, 1);
+th, td {
   padding: 12px;
   text-align: left;
   border-bottom: 1px solid #ddd;
 }
 
 th {
-  color: rgba(71, 84, 103, 1);
+  color:  #F9FAFBFF;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #F9FAFBFF;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #fff;
 }
 
 tbody tr:hover {

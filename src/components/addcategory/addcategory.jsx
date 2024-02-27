@@ -338,7 +338,6 @@ const AddCategory = () => {
               {categories.map((addcategory, index) => (
                 <tr key={index}>
                   <td>{index + 1}</td>
-
                   <td>{addcategory.nameL}</td>
                   <td>{addcategory.nameK}</td>
                   <td>
